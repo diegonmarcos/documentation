@@ -1,8 +1,0 @@
-{
-	"nodes":[
-		{"id":"68a2a81e4b944eef","x":-31,"y":-245,"width":250,"height":60,"type":"text","text":"I love u Obsidian!"},
-		{"id":"d6028f6542157982","x":94,"y":60,"width":400,"height":400,"type":"link","url":"http://www.github.com/diegonmarcos"},
-		{"id":"7c9b8dc149cf93ba","x":-31,"y":580,"width":400,"height":400,"type":"file","file":"C1_Libft/0.Include/Makefile.md"}
-	],
-	"edges":[]
-}
