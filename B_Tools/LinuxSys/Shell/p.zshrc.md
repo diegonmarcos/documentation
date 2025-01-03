@@ -127,13 +127,29 @@ alias gcl='git clone'
 alias push='git add . && git commit -m "update" && git push'
 alias norm="norminette -R CheckForbiddenSourceHeader CheckDefine"
 function ccx {
-  cc "$1" -o "$(basename "$1" .c).out" -Wall -Wextra -Werror
-  ./"$(basename "$1" .c).out" "$2" "$3"
+    cc "$1" -o "$(basename "$1" .c).out" -Wall -Wextra -Werror
+    output_file="./$(basename "$1" .c).out"
+
+    # Check if additional arguments are provided ($2, $3, etc.)
+    if [[ $# -gt 1 ]]; then  # $# is the number of arguments to the function
+        # Use "$@" to expand all arguments from $2 onwards, properly quoted.
+        "$output_file" "${@:2}" # "${@:2}" expands to $2 $3 $4 ...
+    else
+        "$output_file" # Execute with no arguments if none provided
+    fi
 }
-function cx {
-  cc "$1" -o "$(basename "$1" .c).out"
-  ./"$(basename "$1" .c).out" "$2" "$3"
-} 
+function ccx {
+    cc "$1" -o "$(basename "$1" .c).out"
+    output_file="./$(basename "$1" .c).out"
+
+    # Check if additional arguments are provided ($2, $3, etc.)
+    if [[ $# -gt 1 ]]; then  # $# is the number of arguments to the function
+        # Use "$@" to expand all arguments from $2 onwards, properly quoted.
+        "$output_file" "${@:2}" # "${@:2}" expands to $2 $3 $4 ...
+    else
+        "$output_file" # Execute with no arguments if none provided
+    fi
+}
 
 alias francinette=/home/dinepomu/sgoinfre/francinette-image/run.sh
 alias paco=/home/dinepomu/sgoinfre/francinette-image/run.sh

@@ -93,6 +93,19 @@
 	- `ft_list_foreach.c` - Applies a function to each element of a linked list.
 
 
+### Exam Rank 03
+- first question, simple replacement functions, 
+- for the second question it helps if you know how to read from stain to a buffer, malloc and then transfer to a string. 
+- For the third, recursive problem solving of mathematical and logical problems.
+
+### Exam Rank 04
+- Nqueens,
+- one about balancing parentheses, 
+- powerset, 
+- permutations,
+- traveling salesman (also permutation)
+https://42born2code.slack.com/archives/C04BXPUGCPR/p1734343695682479?thread_ts=1734343695.682479&cid=C04BXPUGCPR
+
 ##
 ---
 

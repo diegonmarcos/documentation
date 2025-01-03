@@ -88,17 +88,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "B_Tools/42School/Exams.md",
+                "file": "y_Future/C2_fdf/3dgraphicsxample.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "3dgraphicsxample"
+            }
+          },
+          {
+            "id": "2dde4cf1f0906085",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C2_push_swap/Algo.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exams"
+              "title": "Algo"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -186,7 +201,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "B_Tools/42School/Exams.md",
+            "file": "Side_Projects/S3_FrontEnd/solutions.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -239,36 +254,36 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "ab9060397f95a071",
+  "active": "2dde4cf1f0906085",
   "lastOpenFiles": [
+    "y_Future/C2_fdf/3dgraphicsxample.md",
+    "Side_Projects/S3_FrontEnd/solutions.md",
+    "C2_push_swap/Algo.md",
+    "C3_push_swap/Page.md",
+    "C3_push_swap/Algo.md",
+    "y_Future/C3_ExamRank3/C3_ExamRank03.md",
+    "z_Archive/C1_B2Broot/B2B Root.md",
+    "C2_ExamRank2/examrank02.md",
+    "z_Archive/C1_B2Broot/Evaluation.md",
+    "B_Tools/42School/Exams.md",
+    "B_Tools/0.General/General.md",
+    "0.Inbox/42 Locker.md",
+    "0.Inbox/abstractions.md",
     "B_Tools/CodeProductivity/Cheatsheets.md",
     "0.Notes/BigO.md",
     "0.Notes/TextfromKay.md",
     "0.Notes/ExamRank02.md",
-    "B_Tools/42School/Exams.md",
     "B_Tools/42School/Curricullum.md",
     "B_Tools/LinuxSys/Shell/p.zshrc.md",
     "B_Tools/42School/Norminette.md",
     "B_Tools/42School/Untitled.md",
     "C1_GnL/Documentation.md",
     "C1_GnL/RoadMap_Backlog.md",
-    "z_Archive/C1_B2Broot/B2B Root.md",
     "y_Future/Webservers.md",
     "Side_Projects/UnitTesting.md",
     "B_Tools/CodeProductivity/IDEsEditors/VsCode.md",
     "B_Tools/CodeProductivity",
-    "B_Tools/CodeProductivity/IDEsEditors/readme.md",
-    "B_Tools/CodeProductivity/UnitTesters_Debuggers/CodeQuality.md",
     "B_Tools/CodeProductivity/IDEsEditors",
-    "B_Tools/0.General/index.md",
-    "B_Tools/0.General/General2.md",
-    "B_Tools/0.General/General.md",
-    "B_Tools/CodeProductivity/UnitTesters_Debuggers/Debugger.md",
-    "B_Tools/CodeProductivity/Cloud/rclone.md",
-    "B_Tools/42School/ProjectsDescriptions.md",
-    "B_Tools/LinuxSys/Docker/Docker_c.md",
-    "B_Tools/CodeProductivity/Cloud/Git/Sources.md",
-    "B_Tools/CodeProductivity/Cloud/Git/Resources.md",
     "Side_Projects/Data Structures/Struct implementations",
     "Side_Projects/42School_HolyMap",
     "Side_Projects/FrontEnd",

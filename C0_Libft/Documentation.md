@@ -23,7 +23,7 @@
 ## 2. String Classification
 - [ft_strlen](ft_strlen.md): Calculates the length of a string.
     ```C
-    size_t  ft_strlen(const char *s)
+    size_t  ft_strlen(const char *s) // Calculates the length of a string.
     ```
 - [ft_isalpha](ft_isalpha.md): Checks if a character is alphabetic.
     ```C

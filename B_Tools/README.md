@@ -20,539 +20,300 @@ https://github.com/diegonmarcos/documentation.git
 ```
 ## 3. Open new Vault from...
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+########################################################################################
 
 
-<a id="top"></a>
-![](../zimg/42.svg)L'eco 42![42](../zimg/42.svg)L'ecole 42![42](../zimg/42.svg)L'ecole 42![42](../zimg/42.svg)L'ecole 42![42](../zimg/42.svg)L'eco42![42](../zimg/42.svg)  
----
---- 
-<p align="center"><img src="https://github.com/diegonmarcos/L-ecole-42/raw/main/zimg/tools.png" alt="" width="600"></p>
+# Project Index and Landing Page
 
-<p align="center">
-	• <a href="#1">Coding Tools</a> •
-	<a href="#2">Workspace</a> •
-	<a href="#1">Designing and Doc</a> •
-	<a href="#1">Learning</a> •
+This page serves as an index and landing page for the various projects and resources within this repository. The projects are organized into categories based on their purpose and complexity. You can navigate through the structure using the collapsible sections below.
 
-
-</p>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-#### Essential Coding Tools for the 42 Curriculum
-
-> To excel in the 42 coding curriculum
-<br>
-<br>
-<br>
-
-
-
-<h2>Table of Contents</h2>
+## Projects
 
 <details>
-  <summary>Coding Tools</summary>
-  <ul>
-	<li>
-		<details>
-			<summary>Tester - Memory Leak</summary>
-			<ul>
-				<li>AddressSanitizer (ASan)</li>
-				<li>Valgrind</li>
-			</ul>
-		</details>
-	</li>
-	<li>
-		<details>
-			<summary>Debuggers</summary>
-			<ul>
-				<li>GDB (GNU Debugger)</li>
-				<li>LLDB</li>
-				<li>Valgrind</li>
-				<li>ONLINE GDB</li>
-				<li>PYTHONTU</li>
-				<li>VS Code Debugger</li>
-			</ul>
-		</details>
-	</li>
-	<li>
-		<details>
-			<summary>Code Quality Tools and Others</summary>
-			<ul>
-				<li>Norminette</li>
-				<li>Francinette (Paco)</li>
-				<li>cppcheck</li>
-				<li>clang-format</li>
-			</ul>
-		</details>
-	</li>
-  </ul>
-</details>
+  <summary><b>B_Tools</b></summary>
 
-<details>
-  <summary>Workspace</summary>
-  <ul>
-	<li>
-		<details>
-			<summary>Shell Enhancements</summary>
-			<ul>
-				<li>Oh My Zsh</li>
-				<li>Zsh Plugins
-					<ul>
-						<li>zsh-autosuggestions</li>
-						<li>zsh-syntax-highlighting</li>
-						<li>fzf</li>
-					</ul>
-				</li>
-			</ul>
-		</details>
-	</li>
-	<li>
-		<details>
-			<summary>Editors and IDEs</summary>
-			<ul>
-				<li>Vim
-					<ul>
-						<li>.vimrc</li>
-						<li>.vimrc_42header</li>
-						<li>NeoVim</li>
-						<li>NERDtree - Vim Folder Side bar</li>
-					</ul>
-				</li>
-				<li>IDX GOOGLE and REPLIT</li>
-				<li>JETBRAINS IDE</li>
-				<li>Visual Studio Code
-					<ul>
-						<li>Tab indentation vs spaces</li>
-						<li>Extensions list
-							<ul>
-								<li>JetBrains VS CODE Plugin</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-			</ul>
-		</details>
-	</li>
-	<li>
-		<details>
-			<summary>Custom Shell Scripts (Bash)</summary>
-			<ul>
-				<li>gcp.sh</li>
-				<li>GCL</li>
-			</ul>
-		</details>
-	</li>
-	<li>
-		<details>
-			<summary>UNIX</summary>
-			<ul>
-				<li>find</li>
-				<li>sed & awk</li>
-				<li>grep</li>
-				<li>xargs</li>
-			</ul>
-		</details>
-	</li>
-  </ul>
-</details>
+  Tools and resources for general development, 42 School specific tasks, code productivity, and Linux system management.
 
-<details>
-  <summary>Designing and Documentation</summary>
-  <ul>
-	<li>General Tools</li>
-	<li>
-		<details>
-			<summary>Flowcharts and Drawing</summary>
-			<ul>
-				<li>Excalidraw</li>
-				<li>Diagrams</li>
-				<li>Code Diagram</li>
-				<li>ASCII FLOW</li>
-			</ul>
-		</details>
-	</li>
-	<li>
-		<details>
-			<summary>Documentation</summary>
-			<ul>
-				<li>Doxygen</li>
-			</ul>
-		</details>
-	</li>
-	<li>
-		<details>
-			<summary>Version Control</summary>
-			<ul>
-				<li>Git
-					<ul>
-						<li>.gitignore</li>
-						<li>.gitimodules</li>
-					</ul>
-				</li>
-				<li>Git GUIs (GitHub Desktop / GitKraken)</li>
-			</ul>
-		</details>
-	</li>
-  </ul>
-</details>
+  <details>
+    <summary>0.General</summary>
 
-<details>
-  <summary>Learning Tools</summary>
-  <ul>
-	<li>
-		<details>
-			<summary>Games</summary>
-			<ul>
-				<li>CODINGAME</li>
-				<li>CODEWARS</li>
-				<li>SKYSCRAPPER - RUSH 01</li>
-			</ul>
-		</details>
-	</li>
-	<li>
-		<details>
-			<summary>Exercises</summary>
-			<ul>
-				<li>Grade.me</li>
-			</ul>
-		</details>
-	</li>
-  </ul>
-</details> 
+- General resources and notes.
+   - [General.md](B_Tools/0.General/General.md)
+   - [index.md](B_Tools/0.General/index.md)
+  </details>
 
+  <details>
+    <summary>42School</summary>
 
-<br>
-<br>
-<br>
+- Resources related to 42 School curriculum, exams, and the Norminette.
+    - [Curricullum.md](B_Tools/42School/Curricullum.md)
+    - [Exams.md](B_Tools/42School/Exams.md)
+    - [Norminette.md](B_Tools/42School/Norminette.md)
+    - [Resources_2.md](B_Tools/42School/Resources_2.md)
+    - [Resources.md](B_Tools/42School/Resources.md)
+  </details>
 
----
+  <details>
+    <summary>CodeProductivity</summary>
 
+    Tools and resources to enhance code productivity, including cheatsheets, cloud services, IDEs/editors, Jupyter, and unit testers/debuggers.
 
-# CODING TOOLS
+    <details>
+      <summary>Cloud</summary>
 
-### Tester - Memory Leak
-- AddressSanitizer (ASan) : ```Flag = -fsanitize=address```
-- Valgrind : ```Flag = -g``` | ```valgrind ./a.out```
+	- Information on Git and rclone.
 
- <details> <summary>ASan Man</summary>
-
-**1. Compiling your code with AddressSanitizer:**
-
-* **GCC/Clang:** Add the following flags during compilation:
-   * `-fsanitize=address` enables ASan instrumentation.
-   * `-g` includes debugging information for more detailed error reports.
-   * For example: 
-	 ```bash
-	 gcc -g -fsanitize=address your_program.c -o your_program
-	 ```
-
-**2. Running your program:**
-
-* Simply execute the compiled program. ASan will work in the background, monitoring memory access and allocations.
-
-**3. Interpreting ASan output:**
-
-* **Segmentation faults:**
-	* If your program encounters a segmentation fault, ASan will provide a detailed report including:
-		* The exact memory address that caused the fault.
-		* The type of illegal access (e.g., read, write).
-		* A stack trace leading to the point of the error.
-		* This information greatly aids in pinpointing the source of the problem.
-
-* **Memory leaks:**
-	* When your program terminates, ASan will perform a leak check. If any memory leaks are detected, it will output a report showing:
-		* The size and number of leaked bytes.
-		* A stack trace indicating where the leaked memory was allocated.
-		* This helps identify parts of your code that are not properly freeing memory.
-
-**Important points:**
-
-* **Overhead:** ASan introduces some runtime overhead, typically slowing down your program by a factor of 2-3. This is the trade-off for the detailed error detection it provides.
-* **False positives:** In some cases, ASan may report false positives, especially when interacting with libraries that use custom memory management.
-* **Suppressions:** ASan allows you to suppress certain error types or specific memory regions if needed. Refer to the ASan documentation for details.
-
-**Example ASan output (Segmentation fault):**
-
-```
-==31511==ERROR: AddressSanitizer: SEGV on unknown address 0x000000000000 (pc 0x0000004018a9 bp 0x7ffd79f69670 sp 0x7ffd79f69660 T0)
-==31511==The signal is caused by a READ memory access.
-	#0 0x4018a8 in main /path/to/your_program.c:15
-	#1 0x7f0d36d870b2 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x270b2)
-	#2 0x40113d in _start (/path/to/your_program+0x40113d)
-
-Address 0x000000000000 is located 0 bytes inside of global variable 'uninitialized_pointer' defined in 'your_program.c:5:6' (0x604000) of size 8
-SUMMARY: AddressSanitizer: SEGV /path/to/your_program.c:15 in main
-```
-
-**Example ASan output (Memory leak):**
-
-```
-==31511==ERROR: LeakSanitizer: detected memory leaks
-
-Direct leak of 100 byte(s) in 1 object(s) allocated from:
-	#0 0x7f0d37716bc8 in malloc (/lib/x86_64-linux-gnu/libasan.so.5+0x106bc8)
-	#1 0x4017f4 in main /path/to/your_program.c:10
-	#2 0x7f0d36d870b2 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x270b2)
-
-SUMMARY: AddressSanitizer: 100 byte(s) leaked in 1 allocation(s).
-```
-
-
-</details>
-
- <details> <summary>Valgrind Man</summary>
-
- Valgrind is a powerful tool for detecting memory errors and leaks in your programs. Here's a breakdown of how to use it:
-
-**1. Compile Your Program with Debugging Information**
-
-* When you compile your program, include the `-g` flag to add debugging information. This will allow Valgrind to associate memory errors with specific lines in your code.
-
-**2. Run Your Program Under Valgrind**
-
-* Use Valgrind as a wrapper for your executable. The basic syntax is:
-   ```bash
-   valgrind [valgrind-options] your-program [program-arguments]
-   ```
-
-**3. Interpret Valgrind's Output**
-
-* Valgrind will provide a detailed report of any memory errors or leaks it detects. Pay attention to:
-	* **Error Messages:**  These will indicate the type of error (e.g., invalid read/write, use of uninitialized values), the memory address involved, and the stack trace leading to the error.
-	* **Leak Summaries:** At the end of your program's execution, Valgrind will provide a summary of any memory leaks it found, including the number of bytes leaked and the functions responsible for the allocations.
-
-**Important Valgrind Options**
-
-* `--leak-check=full`:  Enables detailed leak checking.
-* `--show-reachable=yes`:  Shows possibly lost memory (memory still reachable but potentially leaked).
-* `--track-origins=yes`:  Tracks the origin of uninitialized values (can be slower).
-* `--log-file=filename`:  Writes Valgrind's output to a specified file.
-
-**Example**
-
-```bash
-gcc -g my_program.c -o my_program
-valgrind --leak-check=full ./my_program
-```
-
-**Key Points**
-
-* Valgrind is most effective when used with programs compiled in debug mode (`-g`).
-* It can be helpful to run Valgrind with different options to get more detailed information about specific types of errors.
-* Valgrind can be a bit slower than running your program normally, but the benefits of finding and fixing memory issues usually outweigh the performance impact.
-
-**Additional Resources**
-
-* The Valgrind Quick Start Guide: [https://valgrind.org/docs/manual/quick-start.html](https://valgrind.org/docs/manual/quick-start.html)
-* The Valgrind User Manual: [https://valgrind.org/docs/manual/manual.html](https://valgrind.org/docs/manual/manual.html)
-
-</ul>
-</details
+      <details>
+        <summary>Git</summary>
+          
+        - [Commands.md](B_Tools/CodeProductivity/Cloud/Git/Commands.md)
+        - [GCL Bash.md](B_Tools/CodeProductivity/Cloud/Git/GCL%20Bash.md)
+        - [p.gitignore.md](B_Tools/CodeProductivity/Cloud/Git/p.gitignore.md)
+        - [p.gitmodules.md](B_Tools/CodeProductivity/Cloud/Git/p.gitmodules.md)
+        - [Resources.md](B_Tools/CodeProductivity/Cloud/Git/Resources.md)
+        - [Sources.md](B_Tools/CodeProductivity/Cloud/Git/Sources.md)
+      </details>
+      
+      - [rclone.md](B_Tools/CodeProductivity/Cloud/rclone.md)
+    </details>
   
-### [Debuggers ](Debugger.md)
-- **GDB(GNU Debugger):** A robust debugger for dissecting your code's execution and hunting down those pesky bugs.
-- **LLDB:** A similar debugger to GDB, offering an alternative for those who prefer it.
-- **Valgrind:** An invaluable tool for detecting memory leaks and other memory-related issues.
-- OLINE GDB - https://www.onlinegdb.com/online_c_compiler
-- PYTHONTU - https://pythontutor.com/c.html#mode=edit
-- VS Code Debugg
- 
-### [Code Quality Toolsa nd Others](CodeQuality.md)
-- **Norminette:** The official 42 code style enforcer. Mastering it is crucial for adhering to the strict style guidelines.
-- **Francinette (Paco):** An alternative to Norminette with automatic fixing capabilities and smoother integration with editors.
-- **cppcheck:** A static analysis tool for C/C++ code to detect potential bugs and errors early on.
-- **clang-format:** Automatically formats your code to maintain consistent style and readability.
-<br>
+    <details>
+      <summary>IDEsEditors</summary>
+      
+    - Information on various IDEs and editors.
+      
+      - [readme.md](B_Tools/CodeProductivity/IDEsEditors/readme.md)
+      - [VsCode.md](B_Tools/CodeProductivity/IDEsEditors/VsCode.md)
+      
+      <details>
+          <summary>VIM</summary>
+          
+          - [Install.md](B_Tools/CodeProductivity/IDEsEditors/VIM/Install.md)
+          - [p.vimrc_42Header.md](B_Tools/CodeProductivity/IDEsEditors/VIM/p.vimrc_42Header.md)
+          - [p.vimrc.md](B_Tools/CodeProductivity/IDEsEditors/VIM/p.vimrc.md)
+          - [Vim-Cheat-Sheet.md](B_Tools/CodeProductivity/IDEsEditors/VIM/Vim-Cheat-Sheet.md)
+      </details>
+    </details>
 
-<br>
+    <details>
+      <summary>Jupyter</summary>
+      
+    - [Setup.md](B_Tools/CodeProductivity/Jupyter/Setup.md)
+    </details>
 
-<br>
+    <details>
+      <summary>UnitTesters_Debuggers</summary>
+      
+    - Resources for code quality, debugging, and unit testing.
+      
+      - [CodeQuality.md](B_Tools/CodeProductivity/UnitTesters_Debuggers/CodeQuality.md)
+      - [Debugger.md](B_Tools/CodeProductivity/UnitTesters_Debuggers/Debugger.md)
+      - [UnitTesters.md](B_Tools/CodeProductivity/UnitTesters_Debuggers/UnitTesters.md)
+    </details>
+  </details>
 
-# WORKSPACE
-### [Shell Enhancements](Shell.md)
+  <details>
+    <summary>LinuxSys</summary>
+    
+    Resources for Linux system administration, including Docker, commands, login scripts, shell configurations, and VPNs.
+    
+    - [Docker](B_Tools/LinuxSys/Docker)
+      - [Docker_c.md](B_Tools/LinuxSys/Docker/Docker_c.md)
+    - [LINUX_Commands.md](B_Tools/LinuxSys/LINUX_Commands.md)
+    - [Linux.md](B_Tools/LinuxSys/Linux.md)
+    - [Login.sh.md](B_Tools/LinuxSys/Login.sh.md)
+    - [p.zshrc.md](B_Tools/LinuxSys/p.zshrc.md)
+    - [Scripts.md](B_Tools/LinuxSys/Scripts.md)
+    - [Shell](B_Tools/LinuxSys/Shell)
+      - [ohmyzsh.md](B_Tools/LinuxSys/Shell/ohmyzsh.md)
+      - [p.zshrc.md](B_Tools/LinuxSys/Shell/p.zshrc.md)
+      - [Regex_CheatSheet.md](B_Tools/LinuxSys/Shell/Regex_CheatSheet.md)
+    - [VPN](B_Tools/LinuxSys/VPN)
+      - [Options.md](B_Tools/LinuxSys/VPN/Options.md)
+      - [Proton.md](B_Tools/LinuxSys/VPN/Proton.md)
+  </details>
 
-- **Oh My Zsh:** A framework that supercharges your Zsh shell with themes, plugins, and customizations.  
-	- https://ohmyz.sh/   
-	```
-	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-	```
-	- git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-	 
-	- **Zsh Plugins:**
-		- **zsh-autosuggestions:** Intelligently suggests commands as you type.
-		- **zsh-syntax-highlighting:** Color-codes commands to easily spot errors.
-		- **fzf:** A blazing-fast fuzzy finder for files, commands, and more.
-	https://github.com/junegunn/fzf  
-
-- **Fish Shell**  
-  ```https://fishshell.com/```
-
-## Editors and IDEs
-
-- **Vim:** A highly configurable text editor renowned for its speed and efficiency.
-	- `vim ~/.vimrc` && ```set:nu```
-	- [.vimrc](p.vimrc.md)
-	- [.vimrc_42header](p.vimrc_42header.md)
-	- [NeoVim](https://github.com/neovim/neovim/blob/master/INSTALL.md)
-	- **NERDtree - Vim Folder Side bar**  
-		- [NERDtree](https://github.com/preservim/nerdtree)
-- **IDX GOOGLE and REPLIT:** Cloud IDE  
-- **JETBRAINS IDE:** A modern, user-friendly editor with a vast ecosystem of extensions for various languages and tools.
-- **Visual Studio Code:** A modern, user-friendly editor with a vast ecosystem of extensions for various languages and tools.
-	- [Tab indentation vs spaces](VSCode.md)
-	- [Extensions list](ExtList.md)
-		- [JetBrains VS COODE Plugin](https://www.jetbrains.com/help/qodana/vscode.html))  
-
-### **[Custom Shell Scripts (Bash) ](Scripts.md)** 
-
-- **gcp.sh:** gitt add . git commit -m ¨message" git push
-- **GCL:** Def Macro git clone = GCL
-	- ``vim ~/.bashrc``
-	``` bash
-		alias gcl='git clone'
-		alias push='git add . && git commit -m "." && git push'
-		alias norm="norminette -R CheckForbiddenSourceHeader"
-		alias ccc='cc -Wall -Wextra -Werror'		
-	```
-	- ``source ~/.bashrc``
-	- `nano ~/.bash_profile`
-	```bash
-	if [ -f ~/.bashrc ]; then source ~/.bashrc; fi
-	```
-
-### UNIX
-- **find:** A versatile command for locating files and directories based on various criteria.
-- **sed & awk:** Text processing powerhouses for manipulating and transforming file contents or command output.
-- **grep:** Quickly search through files for specific patterns or lines of text.
-- **xargs:** Converts standard input into arguments for other commands, enabling powerful chaining and automation.
-
-### GIT
-- GitHub
-- vscode: git graph
-- Lazygit
-
-
-### **OS** 
-### **[Linux](Linux.md)** 
-
-<br>
-
-<br>
-
-<br>
-
-
-# DESIGNING AND DOCUMENTATION
-- [General Tools](General.md)
-
-
-### Flowcharts and Drawning
-- [Excalidraw](https://excalidraw.com/)
-- [Diragrams](https://app.diagrams.net/)
-- [Code Diagram](https://text-to-diagram.com/?b=mermaid&example=tables  )
-- [ASCII FLOW](https://asciiflow.com/#/)
-
-### Documentation
-- **Doxygen:** Extract documentation directly from your code comments to create comprehensive guides and references.
-
-### Version Control
-- **Git:** The indispensable version control system at 42. Learn it inside-out for managing project history and collaborating effectively.
-	- [.gitignore](p.gitignore.md)
-	- [.gitimodules](p.gitmodules.md)
-- **Git GUIs (GitHub Desktop / GitKraken)**
-
-
-
-
-<br>
-
-<br>
-
-<br>
-
-
-# LEARNING TOOLS
-
-### Games
-- [CODIGN GAME](https://www.codingame.com/start/)
-- [CODE WARS](https://www.codewars.com/)
-- [SKYSCARPPER - RUSH 01](https://es.puzzle-skyscrapers.com/)
-
-### Exercises
-- [**Grade.me** ](https://grademe.fr/) exams
-
-
-
-<h2>OTHERS</h2>
-
-<details>
-  <summary>General 42 Information</summary>
-  <ul>
-	<li>Information and Facts</li>
-	<li>Trivia</li>
-	<li>Rewards</li>
-	<li>Network</li>
-	<li>Social</li>
-  </ul>
+	- [README.md](B_Tools/README.md)
 </details>
 
 <details>
-  <summary>Curriculum & Learning</summary>
-  <ul>
-	<li>Piscine and Common Core</li>
-	<li>Exams</li>
-	<li>Peer-To-Peer</li>
-  </ul>
+  <summary><b>C0_Libft</b></summary>
+
+  The Libft project, a custom C library.
+
+  - [Documentation.md](C0_Libft/Documentation.md)
+  - [Roadmap.md](C0_Libft/Roadmap.md)
+  <details>
+    <summary>Pages</summary>
+    
+    Detailed documentation for each function in Libft.
+    
+    <details>
+      <summary>0.Include</summary>
+      
+      - [libftH.md](C0_Libft/Pages/0.Include/libftH.md)
+      - [Makefile.md](C0_Libft/Pages/0.Include/Makefile.md)
+    </details>
+
+    <details>
+      <summary>1.IOPrinters</summary>
+      
+      - [ft_putchar_fd.md](C0_Libft/Pages/1.IOPrinters/ft_putchar_fd.md)
+      - [ft_putendl_fd.md](C0_Libft/Pages/1.IOPrinters/ft_putendl_fd.md)
+      - [ft_putnbr_fd.md](C0_Libft/Pages/1.IOPrinters/ft_putnbr_fd.md)
+      - [ft_putstr_fd.md](C0_Libft/Pages/1.IOPrinters/ft_putstr_fd.md)
+    </details>
+
+    <details>
+      <summary>2.StringClassification</summary>
+      
+      - [ft_isalnum.md](C0_Libft/Pages/2.StringClassification/ft_isalnum.md)
+      - [ft_isalpha.md](C0_Libft/Pages/2.StringClassification/ft_isalpha.md)
+      - [ft_isascii.md](C0_Libft/Pages/2.StringClassification/ft_isascii.md)
+      - [ft_isdigit.md](C0_Libft/Pages/2.StringClassification/ft_isdigit.md)
+      - [ft_isprint.md](C0_Libft/Pages/2.StringClassification/ft_isprint.md)
+      - [ft_strlen.md](C0_Libft/Pages/2.StringClassification/ft_strlen.md)
+    </details>
+
+    <details>
+      <summary>3.StringFormatting</summary>
+      
+      - [ft_atoi.md](C0_Libft/Pages/3.StringFormatting/ft_atoi.md)
+      - [ft_bzero.md](C0_Libft/Pages/3.StringFormatting/ft_bzero.md)
+      - [ft_itoa.md](C0_Libft/Pages/3.StringFormatting/ft_itoa.md)
+      - [ft_striteri.md](C0_Libft/Pages/3.StringFormatting/ft_striteri.md)
+      - [ft_strmapi.md](C0_Libft/Pages/3.StringFormatting/ft_strmapi.md)
+      - [ft_tolower.md](C0_Libft/Pages/3.StringFormatting/ft_tolower.md)
+      - [ft_toupper.md](C0_Libft/Pages/3.StringFormatting/ft_toupper.md)
+    </details>
+
+    <details>
+      <summary>4.StringSearchCompareSubs</summary>
+      
+      - [ft_memchr.md](C0_Libft/Pages/4.StringSearchCompareSubs/ft_memchr.md)
+      - [ft_memcmp.md](C0_Libft/Pages/4.StringSearchCompareSubs/ft_memcmp.md)
+      - [ft_strchr.md](C0_Libft/Pages/4.StringSearchCompareSubs/ft_strchr.md)
+      - [ft_strncmp.md](C0_Libft/Pages/4.StringSearchCompareSubs/ft_strncmp.md)
+      - [ft_strnstr.md](C0_Libft/Pages/4.StringSearchCompareSubs/ft_strnstr.md)
+      - [ft_strrchr.md](C0_Libft/Pages/4.StringSearchCompareSubs/ft_strrchr.md)
+      - [ft_substr.md](C0_Libft/Pages/4.StringSearchCompareSubs/ft_substr.md)
+    </details>
+
+    <details>
+      <summary>5.MemoryCopyMoveSplit</summary>
+
+      - [ft_calloc.md](C0_Libft/Pages/5.MemoryCopyMoveSplit/ft_calloc.md)
+      - [ft_memchr.md](C0_Libft/Pages/5.MemoryCopyMoveSplit/ft_memchr.md)
+      - [ft_memcmp.md](C0_Libft/Pages/5.MemoryCopyMoveSplit/ft_memcmp.md)
+      - [ft_memcpy.md](C0_Libft/Pages/5.MemoryCopyMoveSplit/ft_memcpy.md)
+      - [ft_memmove.md](C0_Libft/Pages/5.MemoryCopyMoveSplit/ft_memmove.md)
+      - [ft_memset.md](C0_Libft/Pages/5.MemoryCopyMoveSplit/ft_memset.md)
+      - [ft_split.md](C0_Libft/Pages/5.MemoryCopyMoveSplit/ft_split.md)
+      - [ft_strdup.md](C0_Libft/Pages/5.MemoryCopyMoveSplit/ft_strdup.md)
+      - [ft_strjoin.md](C0_Libft/Pages/5.MemoryCopyMoveSplit/ft_strjoin.md)
+      - [ft_strlcat.md](C0_Libft/Pages/5.MemoryCopyMoveSplit/ft_strlcat.md)
+      - [ft_strlcpy.md](C0_Libft/Pages/5.MemoryCopyMoveSplit/ft_strlcpy.md)
+      - [ft_strtrim.md](C0_Libft/Pages/5.MemoryCopyMoveSplit/ft_strtrim.md)
+      - [ft_substr.md](C0_Libft/Pages/5.MemoryCopyMoveSplit/ft_substr.md)
+      - [Memory functions.md](C0_Libft/Pages/5.MemoryCopyMoveSplit/Memory%20functions.md)
+    </details>
+
+    <details>
+      <summary>6.StructLinkedLists</summary>
+      
+      - [ft_lstadd_back.md](C0_Libft/Pages/6.StructLinkedLists/ft_lstadd_back.md)
+      - [ft_lstadd_front.md](C0_Libft/Pages/6.StructLinkedLists/ft_lstadd_front.md)
+      - [ft_lstclear.md](C0_Libft/Pages/6.StructLinkedLists/ft_lstclear.md)
+      - [ft_lstdelone.md](C0_Libft/Pages/6.StructLinkedLists/ft_lstdelone.md)
+      - [ft_lstiter.md](C0_Libft/Pages/6.StructLinkedLists/ft_lstiter.md)
+      - [ft_lstlast.md](C0_Libft/Pages/6.StructLinkedLists/ft_lstlast.md)
+      - [ft_lstmap.md](C0_Libft/Pages/6.StructLinkedLists/ft_lstmap.md)
+      - [ft_lstnew.md](C0_Libft/Pages/6.StructLinkedLists/ft_lstnew.md)
+      - [ft_lstsize.md](C0_Libft/Pages/6.StructLinkedLists/ft_lstsize.md)
+    </details>
+  </details>
 </details>
 
 <details>
-  <summary>Tools & Resources</summary>
-  <ul>
-	<li>Websites & Guides</li>
-	<li>Extensions</li>
-	<li>Grammar</li>
-	<li>Browser</li>
-	<li>Apps</li>
-	<li>Readme</li>
-	<li>Productivity</li>
-	<li>Others</li>
-  </ul>
+  <summary><b>C1_GnL</b></summary>
+
+  The Get Next Line project, reading lines from a file descriptor.
+
+  - [Documentation.md](C1_GnL/Documentation.md)
+  - [RoadMap_Backlog.md](C1_GnL/RoadMap_Backlog.md)
 </details>
 
 <details>
-  <summary>Miscellaneous</summary>
-  <ul>
-	<li>Wikimedia Foundation</li>
-	<li>Campuses</li>
-	<li>Artificial Intelligence</li>
-	<li>Educational Resources</li>
-	<li>Design Tools</li>
-	<li>Entertainment</li>
-	<li>Development Tools</li>
-	<li>Others</li>
-  </ul>
+  <summary><b>C1_Printf</b></summary>
+
+  The ft_printf project, a custom implementation of the printf function.
+
+  - [Documentation.md](C1_Printf/Documentation.md)
+  - [RoadMap_Backlog.md](C1_Printf/RoadMap_Backlog.md)
 </details>
 
+<details>
+  <summary><b>C2_ExamRank2</b></summary>
 
-# Thank you !
+  Preparation materials for the second 42 School exam.
+
+  - [examrank02.md](C2_ExamRank2/examrank02.md)
+</details>
+
+<details>
+  <summary><b>C3_push_swap</b></summary>
+
+  The push_swap project, sorting data on a stack with a limited set of instructions.
+
+  - [Algo.md](C3_push_swap/Algo.md)
+  - [Page.md](C3_push_swap/Page.md)
+</details>
+
+## Side Projects
+
+<details>
+  <summary><b>Side_Projects</b></summary>
+
+  Various side projects, including library extensions, unit testing, data structures, front-end development, and personal setup.
+  
+  <details>
+    <summary>S0_libft_xtend</summary>
+    
+    - [S0_libft_xtend.md](Side_Projects/S0_libft_xtend/S0_libft_xtend.md)
+  </details>
+
+  <details>
+    <summary>S0_lib_unit</summary>
+
+    - [S0_UnitTesting.md](Side_Projects/S0_lib_unit/S0_UnitTesting.md)
+  </details>
+
+  <details>
+    <summary>S1_Data Structures</summary>
+    
+    - [Augmented Linked List Indexed.md](Side_Projects/S1_Data%20Structures/Augmented%20Linked%20List%20Indexed.md)
+    - [CvCs.md](Side_Projects/S1_Data%20Structures/CvCs.md)
+    - [Data structure notes.md](Side_Projects/S1_Data%20Structures/Data%20structure%20notes.md)
+    - [Undefined Behaviour.md](Side_Projects/S1_Data%20Structures/Undefined%20Behaviour.md)
+
+    <details>
+      <summary>Struct implementations</summary>
+      
+      - [Augmented Linked List Indexed.md](Side_Projects/S1_Data%20Structures/Struct%20implementations/Augmented%20Linked%20List%20Indexed.md)
+      - [Struct example with.md](Side_Projects/S1_Data%20Structures/Struct%20implementations/Struct%20example%20with.md)
+    </details>
+  </details>
+
+  <details>
+    <summary>S3_FrontEnd</summary>
+    
+    - [Infographics.md](Side_Projects/S3_FrontEnd/Infographics.md)
+    - [MkDw_JvSc.md](Side_Projects/S3_FrontEnd/MkDw_JvSc.md)
+  </details>
+
+  <details>
+
+  # Thank you !
   
 
 ``` 
@@ -584,8 +345,3 @@ jgs  \  ~=- /    \ \ \____\  \ \           / / /         \  ~=- /
                                \ \_\   / /_____/ /
                                 \/_/   \________/
 ```
-
-
-
-
-
